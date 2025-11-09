@@ -4,52 +4,29 @@ export default {
     extend: {
       fontFamily: {
         script: ['"Dancing Script"', "cursive"],
-        body: ['"Poppins"', "sans-serif"]
+        body: ['"Poppins"', "sans-serif"],
+        varnan: ['"Varnan"', "sans-serif"],
+      },
+      
+      screens: {
+        xs: "420px",
+      },
+      keyframes: {
+        rotate: {
+          "0%": { transform: "rotate(0deg)" },
+          "100%": { transform: "rotate(360deg)" },
+        },
+        "slow-spin": {
+          "0%": { transform: "rotate(0deg)" },
+          "100%": { transform: "rotate(360deg)" },
+        },
       },
       animation: {
-        rotateSlow: 'spin 40s linear infinite'
-      }
+        "rotate-slow": "rotate 20s linear infinite",
+        "slow-spin": "slow-spin 40s linear infinite",
+      },
     },
-    theme: {
-  extend: {
-    screens: {
-      'xs': '420px',
-    },
-    keyframes: {
-    rotate: {
-      from: { transform: "rotate(0deg)" },
-      to: { transform: "rotate(360deg)" },
-    },
-  },
-  animation: {
-    "rotate-slow": "rotate 20s linear infinite",
-  },
-  },
-},
-extend: {
-  keyframes: {
-    rotate: {
-      from: { transform: "rotate(0deg)" },
-      to: { transform: "rotate(360deg)" },
-    },
-  },
-  animation: {
-    "rotate-slow": "rotate 20s linear infinite",
-  },
-},
-extend: {
-  keyframes: {
-    "rotate-cw": {
-      from: { transform: "rotate(0deg)" },
-      to: { transform: "rotate(360deg)" },
-    },
-  },
-  animation: {
-    "rotate-cw": "rotate-cw 20s linear infinite",
-  },
-},
-
-
   },
   plugins: [],
-}
+};
+

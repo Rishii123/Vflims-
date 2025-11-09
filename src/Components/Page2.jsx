@@ -102,7 +102,7 @@ const Page2 = () => {
             Take a closer look at the stories V bring to life.
           </p>
           <button className="bg-[#E85C3B] text-white px-8 sm:px-10 py-3 sm:py-3.5 rounded-full text-sm sm:text-base md:text-lg hover:bg-[#cf4e32] transition shadow-lg">
-            Radhe Radhe
+            View Portfolio
           </button>
         </div>
       </div>
