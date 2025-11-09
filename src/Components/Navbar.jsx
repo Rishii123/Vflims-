@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import hamburger_closed from "../assets/closed.png";
-import hamburger_open from "../assets/open.png";
+import closed from "../assets/closed.png";
+import open from "../assets/open.png";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -32,7 +32,7 @@ export default function Navbar() {
           className="relative z-[102] w-[50px] h-[50px] flex justify-center items-center cursor-pointer"
         >
           <img
-            src={open ? hamburger_open : hamburger_closed}
+            src={open ? open : closed}
             alt="Menu Icon"
             className="w-[50px] h-[50px] object-contain transition-all duration-300 ease-in-out"
           />
