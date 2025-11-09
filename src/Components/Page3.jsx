@@ -51,9 +51,9 @@ export default function Page3() {
     </div>
 
     {/* RIGHT SIDE */}
-    <div className="flex flex-col justify-start items-center md:items-end text-center md:text-right md:pr-10 h-full">
+    <div className="flex flex-col justify-start items-center md:items-end text-center md:text-right md:pr-10 h-full mt-70">
       {/* Text at the top */}
-      <p className="text-xl md:text-2xl italic text-[#192f51] leading-relaxed font-[Island_Moments] max-w-md md:pr-10 mt-6">
+      <p className="text-xl md:text-3.6xl italic text-[#192f51] leading-relaxed font-[Island_Moments] max-w-md md:pr-10 mt-35">
         Every project is more than just a brief – <br />
         it’s a new chapter waiting to be written. <br />
         <span className="font-[Island_Moments]">

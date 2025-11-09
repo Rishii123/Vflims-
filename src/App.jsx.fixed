@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "./assets/vfilms-logo.png";
 import mandala from "./assets/mandala.png";
 import background from "./assets/background.png";
@@ -9,13 +9,12 @@ import Page4 from "./Components/Page4";
 import Page5 from "./Components/Page5";
 
 export default function App() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <div className="overflow-x-hidden w-full">
       {/* Navbar */}
-      <header className="fixed top-0 left-0 w-full flex justify-between items-center px-6 md:px-10 py-4 z-[100] bg-transparent">
-        {/* <img src={logo} alt="VFilms Logo" className="w-[80px] md:w-[100px] object-contain" /> */}
-        <Navbar />
-      </header>
+      <Navbar />
 
       {/* Hero Section */}
       <section
@@ -51,10 +50,10 @@ export default function App() {
             Films . Brands . Art
           </p>
           <p className="text-sm md:text-base leading-relaxed font-['Instrument_Sans'] text-gray-700">
-            Since 2009, V’s been telling stories – stories of people, their journeys, and the places that shape them.
+            Since 2009, V's been telling stories – stories of people, their journeys, and the places that shape them.
             Some begin in polished boardrooms, others in humble village squares. But every story starts the same way –
             by listening with intention. V believes it takes trust, patience, and an eye for the unseen to capture what
-            truly matters. V doesn’t just tell stories – V honors them.
+            truly matters. V doesn't just tell stories – V honors them.
           </p>
         </div>
       </section>
