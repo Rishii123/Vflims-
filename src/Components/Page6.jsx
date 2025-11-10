@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import frame31 from "../assets/frame 31-min.png";
-import frame311 from "../assets/frame 31 (1)-min.png";
-import frame312 from "../assets/frame 31 (2)-min.png";
-import frame33 from "../assets/frame 33-min.png";
+import frame31 from "../assets/frame31-min.png";
+import frame311 from "../assets/frame31-2-min.png";
+import frame312 from "../assets/frame31-2-min.png";
+import frame33 from "../assets/frame-33-min.png";
 import tape from "../assets/tape.png";
 import underline from "../assets/underline.png";
 import background from "../assets/background.png";

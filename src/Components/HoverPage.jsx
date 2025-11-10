@@ -1,5 +1,5 @@
 import React from "react";
-import frame31 from "../assets/Frame 31 Hover.png";
+import frame31 from "../assets/Frame-31-Hover.png";
 import leftSide from "../assets/left-side-min.png";
 import rightSide from "../assets/right-side-min.png";
 import underline from "../assets/underline.png";
