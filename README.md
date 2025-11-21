@@ -10,8 +10,6 @@
 
 Varnan is a sleek and responsive homepage for VFilms, a digital storytelling and content creation company. The project demonstrates expertise in modern web development practices, responsive design, and interactive UI components.
 
-**Key Theme:** "Where stories find their voice and form"
-
 This website showcases VFilms' services across:
 - **Films** - Professional video production
 - **Brands** - Brand storytelling and visual identity
@@ -35,21 +33,6 @@ This website showcases VFilms' services across:
   - 🎨 Art Curators
   - 💼 Branding Experts
 - **Call-to-Action Buttons**: Prominent portfolio and engagement buttons
-
-### 🖼️ Visual Design
-- **Gradient Backgrounds**: Smooth color transitions between sections
-- **Optimized Images**: Responsive image scaling with drop shadows
-- **Custom Typography**: Professional font choices (Halant, Instrument Sans)
-- **Color Palette**: 
-  - Primary: #192f51 (Navy Blue)
-  - Secondary: #E85C3B (Vibrant Orange)
-  - Accent: #FFF8F5 (Cream)
-
-### 📱 Component Architecture
-- **Modular Structure**: Reusable React components
-- **Navbar Component**: Sticky navigation with mobile responsiveness
-- **Multi-Page Layout**: Organized page components (Page2, Page3, Page4, Page5)
-- **Asset Management**: Centralized image and resource handling
 
 ---
 
@@ -164,16 +147,6 @@ npm run lint
 - **md**: 768px (Tablet)
 - **lg**: 1024px (Large Tablet/Small Desktop)
 - **xl**: 1280px (Desktop)
-
----
-
-## 🔄 Responsive Design Testing
-
-Tested across multiple breakpoints:
-- ✅ Mobile (iPhone 12, 13, 14)
-- ✅ Tablet (iPad, iPad Pro)
-- ✅ Desktop (1920x1080, 2560x1440)
-- ✅ Touch interactions on mobile devices
 
 ---
 
