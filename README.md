@@ -2,7 +2,7 @@
 
 > A modern, responsive storytelling platform built with React and Tailwind CSS
 
-**Live Demo:** [https://vflms-cfi7.vercel.app/](https://vflms-cfi7.vercel.app/)
+**Live Demo:** [https://vflims.vercel.app/)
 
 ---
 
